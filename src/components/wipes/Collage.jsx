@@ -22,7 +22,7 @@ export const Collage = () => {
                     <br></br>
 
                     <h1 data-aos="fade-left"><strong>Recyclable Wipes</strong></h1>
-                    <hr id='hr-green'></hr>
+                    <hr id='hr-green-s'></hr>
                     <p >We have developed a range of wipes that are 100% recyclable; made from Polypropylene, these recyclable alternatives maintain all the strength of regular wipes and won’t cost the earth.</p>
 
                     <p>At The Hygiene Company, providing our clients with the choice of biodegradable or recyclable wipes is important to us, for it means that you and your company are able to make decisions that are guaranteed to help to save our planet.</p>
@@ -44,7 +44,7 @@ export const Collage = () => {
                     <br></br>
                     
                     <h1 data-aos="fade-right"><strong>Biodegradable Wipes</strong></h1>
-                    <hr id='hr-black'></hr>
+                    <hr id='hr-black-S'></hr>
                     <p>Wet wipes are used very frequently in almost every household, venue and workplace as baby wipes, nursing wipes, kitchen wipes, grime wipes, gym wipes, industrial wipes and many more. In fact, it is believed that in the UK alone, we dispose of 11,000,000,000 wet wipes every year.</p>
 
                     <p>The primary issue is that the majority of cleaning wipes contain a non-biodegradable plastic and, as a result: they end up in landfill sites where they take hundreds of years to decompose; they get incinerated, which contributes to carbon emissions; or they get flushed down the toilet which causes them to clog up sewers or harm marine life. Regardless of how they are disposed, it is evident that such wet wipes are devastating for the environment.</p>

@@ -5,7 +5,7 @@ import weight from './weight.png';
 import size from './size.png';
 
 
-export const FourColumns = () => {
+export const FourColumnsStainless = () => {
   return (
     
     <div className="row" id='row-max'>
@@ -18,7 +18,8 @@ export const FourColumns = () => {
       <h3>UNIT SIZE</h3>
       <hr id='hr-green'></hr>
 
-      <p id='text-pls-5'>200x200x200mm</p>
+      <p id='text-pls-5'>Large: 300Lx253.5WX250D</p>
+      <p id='text-pls-5'>Medium: 273.8Lx124WX125.4D</p>
       </div>
 
       <div className="col-md-2" id='column'>
@@ -28,7 +29,8 @@ export const FourColumns = () => {
       <h3>WEIGHT</h3>
       <hr id='hr-green'></hr>
 
-      <p id='text-pls-5'>1kg</p>
+      <p id='text-pls-5'>Large: 3.5KG</p>
+      <p id='text-pls-5'>Medium: 2KG</p>
       </div>
 
       <div className="col-md-2" id='column'>
@@ -38,7 +40,8 @@ export const FourColumns = () => {
       <h3>CAPACITY</h3>
       <hr id='hr-green'></hr>
 
-      <p id='text-pls-5'>500 Wipes</p>
+      <p id='text-pls-5'>Large: 600-1000</p>
+      <p id='text-pls-5'>Medium: 200-500</p>
       </div>
 
       <div className="col-md-2" id='column'>
@@ -47,7 +50,8 @@ export const FourColumns = () => {
       <br></br>
       <h3>COLOURS</h3>
       <hr id='hr-green'></hr>
-      <p id='text-pls-5'>White / Black / Silver</p>
+      <p id='text-pls-5'><strong>Brushed</strong> Silver</p>
+      <p id='text-pls-5'><strong>Matt</strong> Black</p>
       </div>
       <div className="col-md-2"></div>
 

@@ -23,7 +23,7 @@ export const TextoCentradoWipes = () => {
         of disinfectant wipes, designed for both hands and surfaces,
          is fantastically diverse; <br></br>with alcohol-free wipes, alcohol wipes, 
          recyclable<br></br> wipes and biodegradable wipes all available.</p>
-          <button type="button" class="botoncito">Discover More <span></span><span></span><span></span><span></span></button>
+          <a href='#widepod'><button type="button" class="botoncito" href="#widepod">Discover + <span></span><span></span><span></span><span></span></button></a>
 
         </div>
 

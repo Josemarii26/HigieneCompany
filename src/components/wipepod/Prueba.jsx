@@ -8,18 +8,22 @@ import offices from './Offices.jpg';
 import restaurants from './Restaurants.jpg';
 import schools from './Schools.jpg';
 import vet from './Vet.jpg';
+import { Link } from 'react-router-dom';
+
 
 export const Prueba = () => {
     return (
         <div class="row content">
+
+                
 
             <div className="col-md-4 thumbnails">
                 <img src={gym} alt="gym"></img>
                 <div className="black-oro"></div>
                 <div className="title">Gyms
                 <br></br>
-                <button type="button" class="botoncito3">NEW SECTION! <span></span><span></span><span></span><span></span></button>
 
+            <Link as={Link} to="/gym-zone"><button type="button" class="botoncito3">NEW SECTION! <span></span><span></span><span></span><span></span></button></Link>
                 
                 </div>
             </div>

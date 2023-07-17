@@ -23,7 +23,7 @@ export const NavBar = () => {
       {['sm'].map((expand) => (
         <Navbar key={expand} bg="light" expand={expand} className="mb-3" id='navbar'>
           <Container>
-            <Navbar.Brand><img src={logo} alt='logo' width='240px'></img></Navbar.Brand>
+            <Navbar.Brand><img src={logo} alt='logo' id='logo' width='240px'></img></Navbar.Brand>
             <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
             <Navbar.Offcanvas
               id={`offcanvasNavbar-expand-${expand}`}
@@ -32,7 +32,7 @@ export const NavBar = () => {
             >
               <Offcanvas.Header closeButton>
                 <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
-                  Offcanvas
+                  Menú 
                 </Offcanvas.Title>
               </Offcanvas.Header>
               <Offcanvas.Body>
@@ -46,14 +46,13 @@ export const NavBar = () => {
                     title={t("header.discover")}
                     id={`offcanvasNavbarDropdown-expand-${expand}`}
                   >
-                    <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
-                    <NavDropdown.Item href="#action4">
-                      Another action
-                    </NavDropdown.Item>
+                    <NavDropdown.Item as={Link} to="/stainless">STAINLESS STEEL WET <br></br>WIPES DISPENSER</NavDropdown.Item>
                     <NavDropdown.Divider />
-                    <NavDropdown.Item href="#action5">
-                      Something else here
+                    <NavDropdown.Item as={Link} to="/wet-wipes-station">
+                      WET WIPES STATION
                     </NavDropdown.Item>
+                    
+                    
                   </NavDropdown>
                   <Nav.Link as={Link} to="/contact-us">{t("header.contact")}</Nav.Link>
                   <button id="languaje-b" onClick={() => changeLanguage("es")}><img src={esp} alt='spain' width='35px'></img></button>

@@ -9,6 +9,7 @@ export const TextoFoto = () => {
       </div>
       <div className="col-md-4" id='text-pls-3'>
         <h1>THE HOME OF AWARD WINNING WIDEPOD</h1>
+        <hr id='hr-green-s'></hr>
         <p>The Hygiene Company is the home of the Wipepod®:
           the award-winning, low-cost antibacterial wet wipes dispenser.</p>
         <p>Since its launch, the Wipepod® has become a widely recognised

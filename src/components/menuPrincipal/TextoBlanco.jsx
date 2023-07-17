@@ -1,4 +1,6 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
+
 
 export const TextoBlanco = () => {
   return (
@@ -13,7 +15,7 @@ export const TextoBlanco = () => {
 
 
           <p>With a mission to make the industry’s best hygiene products available to those who need them, we have helped hundreds of clients to maintain healthy environments for their staff and customers through premium quality products at highly competitive prices. Moreover, we are committed to understanding the collective needs and wants of all our clients so as to continue developing pioneering products that are tailored to you.</p>
-          <button type="button" class="botoncito2">Discover More <span></span><span></span><span></span><span></span></button>
+          <Link as={Link} to="/about-us"><button type="button" class="botoncito2" >Discover + <span></span><span></span><span></span><span></span></button></Link>
 
       </div>
       <div className="col-md-1">

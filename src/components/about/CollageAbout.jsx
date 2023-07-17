@@ -21,7 +21,7 @@ export const CollageAbout = () => {
                     <br></br>
 
                     <h1 data-aos="fade-left"><strong>ENSURING YOUR PROTECTION & WELLBEING</strong></h1>
-                    <hr id='hr-green'></hr>
+                    <hr id='hr-green-s'></hr>
                     <p >At The Hygiene Company, we are increasingly aware of current global issues and, therefore, are constantly striving to find new solutions for our ever-changing world. In light of the coronavirus, while many businesses have suffered shortages, we have ensured that our clients are never without sufficient hygiene supplies. Furthermore, we have developed new products that are effective against the new strain of COVID-19, such as our SS4/SS5 antiviral hand and surface wet wipe range.</p>
                     <br></br>
                     <p>As well as ensuring the protection and wellbeing of people, we pride ourselves on simultaneously protecting the world around us through our range of environmentally friendly products, such as biodegradable wipes and recyclable wipes, and through the implementation of our Environmental Management Policy Statement.</p>

@@ -2,7 +2,6 @@ import React from 'react'
 
 import { TextoCentradoMenu } from '../menuPrincipal/TextoCentradoMenu'
 import { Footer } from '../Footer'
-import { TextoEfecto } from '../wipepod/TextoEfecto'
 import { ScrollToTopButton } from '../ScrollToTopButton'
 import { TextoBlanco } from '../menuPrincipal/TextoBlanco'
 import { CollageMenu } from '../menuPrincipal/CollageMenu'

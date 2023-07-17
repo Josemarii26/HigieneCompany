@@ -2,7 +2,6 @@ import React from 'react'
 import { TextoCentrado } from '../wipepod/TextoCentrado'
 import { Collagex1 } from '../wipepod/Collagex1'
 import { Footer } from '../Footer'
-import { TextoEfecto } from '../wipepod/TextoEfecto'
 import { TextoFoto } from '../wipepod/TextoFoto'
 import { TextText } from '../wipepod/TextText'
 import { FourColumns } from '../wipepod/FourColumns'
@@ -26,7 +25,6 @@ export const Wipepod = () => {
       <Prueba/>
       <Where/>
 
-      <TextoEfecto/>
       
       <Footer/>
       <ScrollToTopButton/>

@@ -5,6 +5,8 @@ import { MenuPrincipal } from './components/paginas/MenuPrincipal';
 import { PaginaGym } from './components/paginas/PaginaGym';
 import { Wipepod } from './components/paginas/Wipepod';
 import { Wipes } from './components/paginas/Wipes';
+import { Stainless } from './components/paginas/Stainless';
+import { WetWipesStation } from './components/paginas/WetWipesStation';
 import { ContactUs } from './components/paginas/ContactUs';
 import { AboutUs } from './components/paginas/AboutUs';
 import { Routes, Route, BrowserRouter } from 'react-router-dom';
@@ -36,6 +38,8 @@ function App() {
         <Route path='/about-us' element={<AboutUs/>} />
         <Route path='/wipes' element={<Wipes />} />
         <Route path='/wipepod' element={<Wipepod />} />
+        <Route path='/wet-wipes-station' element={<WetWipesStation />} />
+        <Route path='/stainless' element={<Stainless />} />
         <Route path='/contact-us' element={<ContactUs />} />
         
 
