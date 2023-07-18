@@ -7,12 +7,13 @@ import { TextoFotoWipes } from '../wipes/TextoFotoWipes'
 import { TextTextWipes } from '../wipes/TextTextWipes'
 import { Collage } from '../wipes/Collage'
 import { Where } from '../wipes/Where'
-
+import { NavBar } from '../NavBar'
 
 
 export const Wipes = () => {
   return (
     <div className="App">
+      <NavBar/>
       <header className="App-header">
       
       <TextoCentradoWipes/>

@@ -9,12 +9,13 @@ import { Gallery } from '../wipepod/Gallery'
 import { Prueba } from '../wipepod/Prueba'
 import { Where } from '../wipes/Where'
 import { ScrollToTopButton } from '../ScrollToTopButton'
-
+import { NavBar } from '../NavBar'
 
 
 export const Wipepod = () => {
   return (
     <div className="App">
+      <NavBar/>
       <header className="App-header">
       
       <TextoCentrado/>

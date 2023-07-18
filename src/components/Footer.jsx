@@ -8,7 +8,7 @@ export const Footer = () => {
 
             <div class="text-left p-3" id='final'>
                 
-                <p class="footer" >Distribuciones Ruiz Millán DRM © All Rights Reserved </p>
+                <p class="footer" >Distribuciones Ruiz Millán DRM <br></br>© All Rights Reserved </p>
             
             </div>
 

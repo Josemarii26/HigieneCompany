@@ -10,10 +10,12 @@ import { ScrollToTopButton } from '../ScrollToTopButton'
 import { Footer } from '../Footer'
 import { ClientsStainless } from '../stainless/Clients'
 import { FourColumnsStainless } from '../stainless/FourColumns'
+import { NavBar } from '../NavBar'
 
 export const Stainless = () => {
   return (
     <div className="App">
+      <NavBar/>
       <header className="App-header">
         <TextoCentradoStation />
         <InicioStation />

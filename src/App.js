@@ -1,6 +1,5 @@
 
 import './App.css';
-import { NavBar } from './components/NavBar';
 import { MenuPrincipal } from './components/paginas/MenuPrincipal';
 import { PaginaGym } from './components/paginas/PaginaGym';
 import { Wipepod } from './components/paginas/Wipepod';
@@ -28,7 +27,7 @@ function App() {
   return (
     <BrowserRouter>
 
-      <NavBar/>
+      
 
       <Routes>
 
@@ -45,7 +44,7 @@ function App() {
 
 
       </Routes>
-
+      
     </BrowserRouter>
 
   );

@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { NavBar } from '../NavBar'
 import { TextoCentradoMenu } from '../menuPrincipal/TextoCentradoMenu'
 import { Footer } from '../Footer'
 import { ScrollToTopButton } from '../ScrollToTopButton'
@@ -12,6 +12,7 @@ import { Clients } from '../menuPrincipal/Clients'
 export const MenuPrincipal = () => {
   return (
     <div className="App">
+      <NavBar/>
       <header className="App-header">
       <TextoCentradoMenu/>
       <TextoBlanco/>

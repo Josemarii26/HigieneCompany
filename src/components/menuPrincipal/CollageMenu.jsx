@@ -34,7 +34,7 @@ export const CollageMenu = () => {
 
                 </div>
                 <div className="col-md-1"></div>
-                <div className="col-md-6 order-0 order-md-1" id='wapper2' >
+                <div className="col-md-6 order-0 order-md-1" id='wapper3' >
                     <img src={menu1} className="img-fluid" alt="logo" />
                 </div>
             </div>

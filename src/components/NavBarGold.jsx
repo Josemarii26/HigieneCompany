@@ -7,10 +7,10 @@ import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 import esp from './spain.png';
 import uk from './uk.png';
-import logo from './Logo1.png';
+import logo from './Logo2.png';
 
 
-export const NavBar = () => {
+export const NavBarGold = () => {
 
   const [t, i18n] = useTranslation("global");
 
@@ -19,14 +19,14 @@ export const NavBar = () => {
     localStorage.setItem('language', lng); // Guarda el idioma seleccionado en el localStorage
   };
   return (
-    <div className="col-lg-12" >
-      {['lg'].map((expand) => (
-        <Navbar key={expand} bg="light" expand={expand} className="mb-3" >
+    <div className="col-lg-12" id='nav'>
+      {['sm'].map((expand) => (
+        <Navbar key={expand} bg="light" expand={expand} className="mb-3" id='navbar'>
           <Container>
             <Navbar.Brand as={Link} to="/"><img src={logo} alt='logo' id='logo' width='240px'></img></Navbar.Brand>
-            <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
-            <Navbar.Offcanvas 
-              id="offcanva2"
+            <Navbar.Toggle id="toggle" aria-controls={`offcanvasNavbar-expand-${expand}`} />
+            <Navbar.Offcanvas className="offcanva"
+              id="offcanva"
               aria-labelledby={`offcanvasNavbarLabel-expand-${expand}`}
               placement="end"
             >
@@ -36,19 +36,19 @@ export const NavBar = () => {
                 </Offcanvas.Title>
               </Offcanvas.Header>
               <Offcanvas.Body>
-                <Nav className="justify-content-end flex-grow-1 pe-3">
+                <Nav className="justify-content-end flex-grow-1 pe-3" id="uno">
                   <Nav.Link as={Link} to="/">{t("header.home")}</Nav.Link>
                   <Nav.Link as={Link} to="/about-us">{t("header.about-us")}</Nav.Link>
                   <Nav.Link as={Link} to="/wipes">{t("header.wipes")}</Nav.Link>
                   <Nav.Link as={Link} to="/wipepod">{t("header.wipepod")}</Nav.Link>
-                  <Nav.Link as={Link} to="/gym-zone" id="to-gym">{t("header.gym-zone")}</Nav.Link>
+                  <Nav.Link as={Link} to="/gym-zone">{t("header.gym-zone")}</Nav.Link>
                   <NavDropdown
                     title={t("header.discover")}
                     id={`offcanvasNavbarDropdown-expand-${expand}`}
                   >
-                    <NavDropdown.Item as={Link} to="/stainless">STAINLESS STEEL WET <br></br>WIPES DISPENSER</NavDropdown.Item>
+                    <NavDropdown.Item as={Link} to="/stainless" id="dropdown">STAINLESS STEEL WET <br></br>WIPES DISPENSER</NavDropdown.Item>
                     <NavDropdown.Divider />
-                    <NavDropdown.Item as={Link} to="/wet-wipes-station">
+                    <NavDropdown.Item as={Link} to="/wet-wipes-station" id="dropdown">
                       WET WIPES STATION
                     </NavDropdown.Item>
                     

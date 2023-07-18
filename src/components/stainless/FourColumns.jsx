@@ -29,8 +29,8 @@ export const FourColumnsStainless = () => {
       <h3>WEIGHT</h3>
       <hr id='hr-green'></hr>
 
-      <p id='text-pls-5'>Large: 3.5KG</p>
-      <p id='text-pls-5'>Medium: 2KG</p>
+      <p id='text-pls-5'>Large: 3.5kg</p>
+      <p id='text-pls-5'>Medium: 2kg</p>
       </div>
 
       <div className="col-md-2" id='column'>

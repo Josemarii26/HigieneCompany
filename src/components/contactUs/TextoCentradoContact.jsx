@@ -11,9 +11,11 @@ export const TextoCentradoContact = () => {
 
     <div className="col-md-12">
       <div className="image-container" id='wapper2'>
-        <div className="image-wrapperX">
-          <img src={contact} className="img-fluid" alt="logo" />
-          <div className="image-textX">Texto en la imagen Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure deserunt, ea totam voluptatem esse voluptatibus beatae eaque cumque perspiciatis consequatur possimus ut est repudiandae aliquid adipisci exercitationem dicta hic voluptatum.</div>
+        <img src={contact} className="img-fluid" alt="logo" />
+        <div className="text-overlay2" > <h4 className='titulo2' data-aos="fade-left"><strong> CONTACT US <hr id='hr-black'></hr></strong></h4>
+        <p id='menor'>Have a question? Get in touch with us. We’re always happy to have a chat.</p>
+          <a href='#widepod'><button type="button" class="botoncito" href="#widepod">Discover + <span></span><span></span><span></span><span></span></button></a>
+
         </div>
 
       </div>
