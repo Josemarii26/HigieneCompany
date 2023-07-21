@@ -19,6 +19,7 @@ export const NavBar = () => {
     localStorage.setItem('language', lng); // Guarda el idioma seleccionado en el localStorage
   };
   return (
+    
     <div className="col-lg-12" >
       {['lg'].map((expand) => (
         <Navbar key={expand} bg="light" expand={expand} className="mb-3" >

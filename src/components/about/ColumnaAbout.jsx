@@ -2,7 +2,7 @@ import React from 'react'
 
 export const ColumnaAbout = () => {
   return (
-    <div className="col-md-8" id='text-pls-5'>
+    <div className="col-md-8" id='text-pls-7'>
       <h1><strong id='txt-verde'>We continue</strong> to achieve our aims of:</h1>
       <hr id='hr-green'></hr>
       <br></br>

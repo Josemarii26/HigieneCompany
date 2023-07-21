@@ -9,5 +9,27 @@
         "discover": "Discover more products",
         "contact": "Contact us"
 
+    },
+
+    "contact-us": {
+        "title1": "CONTACT US",
+        "title2": "Do you have any questions or concerns? Please do not hesitate to contact us. We will be happy to assist you and help you in any way we can.",
+        "p1": "The DRM WiPES team is a clear example of friendliness and professionalism, we will be happy to assist you 24/7. Focused on providing customers with the most suitable products that best suit their needs, you can contact us and ask us about what you think is best for you.",
+        "p2": "If you have a project in mind and you want us to tackle it, don't hesitate to tell us about it.",
+        "p3": "We like to work with our customers and form a big family, at DRM WiPES we are creating a new movement and we want you to be part of it, don't stay behind!"
+
+    },
+
+    "main":{
+        "title1A": "New concept for your gym!",
+        "title1B": "Find out more and don't get left behind!",
+        "title2A": "Find out more and don't get left behind!",
+        "title2": "Do you have any questions or concerns? Please do not hesitate to contact us. We will be happy to assist you and help you in any way we can.",
+        "p1": "The DRM WiPES team is a clear example of friendliness and professionalism, we will be happy to assist you 24/7. Focused on providing customers with the most suitable products that best suit their needs, you can contact us and ask us about what you think is best for you.",
+        "p2": "If you have a project in mind and you want us to tackle it, don't hesitate to tell us about it.",
+        "p3": "We like to work with our customers and form a big family, at DRM WiPES we are creating a new movement and we want you to be part of it, don't stay behind!"
+
+
     }
+    
 }

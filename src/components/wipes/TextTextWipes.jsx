@@ -47,17 +47,7 @@ export const TextTextWipes = () => {
                 <ul>
                 ✅ Independently tested 100% non-hazardous and safe for landfill.            </ul>
                 <br></br>
-                <h3><strong id='txt-verde'>Alcohol</strong> Wipes Specifications:</h3>
-                <br></br>
-                <ul>
-                ✅ Available in packets containing 100 wipes or buckets containing 600 wipes.
-                </ul>
-                <ul>
-                ✅ 30% or 80% alcohol options.
-                </ul>
-                <ul>
-                ✅ Medical grade: ideal for use in high-risk hygiene locations.
-                </ul>
+                
 
             </div>
         </div>

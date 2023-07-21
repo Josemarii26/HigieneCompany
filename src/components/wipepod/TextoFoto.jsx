@@ -1,5 +1,6 @@
 import React from 'react'
-import img1 from './img1.jpg';
+import img1 from './wipepodF.png';
+
 
 export const TextoFoto = () => {
   return (
@@ -24,7 +25,7 @@ export const TextoFoto = () => {
       </div>
 
       <div className="col-md-4" id='wapper' >
-        <img src={img1} className="img-fluid" alt="logo" />
+        <img src={img1} className="img-fluid" alt="logo" id='imagenF'/>
       </div>
 
     </div>

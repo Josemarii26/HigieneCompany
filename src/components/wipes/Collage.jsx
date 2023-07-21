@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import wipes3 from './Wipes3.jpg';
+
 import wipes4 from './Wipes4.jpg';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
@@ -15,26 +15,7 @@ export const Collage = () => {
         
     return (
         <div className="container-fluid" id='collage'>
-            <div className="row" id='negro'>
-                <div className="col-md-1"></div>
-                <div className="col-md-4 order-1 order-md-0" id='text-pls-3' >
-                    <br></br>
-                    <br></br>
-
-                    <h1 data-aos="fade-left"><strong>Recyclable Wipes</strong></h1>
-                    <hr id='hr-green-s'></hr>
-                    <p >We have developed a range of wipes that are 100% recyclable; made from Polypropylene, these recyclable alternatives maintain all the strength of regular wipes and won’t cost the earth.</p>
-
-                    <p>At The Hygiene Company, providing our clients with the choice of biodegradable or recyclable wipes is important to us, for it means that you and your company are able to make decisions that are guaranteed to help to save our planet.</p>
-
-                    <p>Furthermore, all of our antibacterial wet wipes are held in boxes that are 100% recyclable and are made from a high percentage of recycled materials.
-                    </p>
-                </div>
-                <div className="col-md-1"></div>
-                <div className="col-md-6 order-0 order-md-1" id='wapper2' >
-                    <img src={wipes3} className="img-fluid" alt="logo" />
-                </div>
-            </div>
+            
             <div className="row" id='verde'>
                 <div className="col-md-6 order-3 order-md-2 " id='wapper3'>
                     <img src={wipes4} className="img-fluid" alt="logo" id='image' />

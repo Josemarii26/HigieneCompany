@@ -10,5 +10,13 @@
         "contact": "Contacta con nosotros"
 
 
+    },
+    "contact-us": {
+        "title1": "CONTÁCTANOS",
+        "title2": "¿Tiene alguna pregunta o duda? No dude en ponerse en contacto con nosotros. Estaremos encantados de y ayudarle en todo lo que podamos.",
+        "p1": "El equipo de DRM WiPES es un claro ejemplo de amabilidad y profesionalidad, estaremos encantados de atenderle 24 horas al día, 7 días a la semana. Centrados en proporcionar a los clientes los productos más adecuados y que mejor se adapten a sus necesidades, usted puede ponerse en contacto con nosotros y consultarnos sobre lo que crea más conveniente para usted.",
+        "p2": "Si tienes un proyecto en mente y quieres que lo abordemos, no dudes en contárnoslo.",
+        "p3": "Nos gusta trabajar con nuestros clientes y formar una gran familia, en DRM WiPES estamos creando un nuevo movimiento y queremos que formes parte de él, ¡no te quedes atrás!"
+
     }
 }
