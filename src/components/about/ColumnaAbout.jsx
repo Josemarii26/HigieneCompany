@@ -1,30 +1,34 @@
 import React from 'react'
+import { useTranslation } from 'react-i18next';
+
 
 export const ColumnaAbout = () => {
+
+  const [t, i18n] = useTranslation("global");
   return (
     <div className="col-md-8" id='text-pls-7'>
-      <h1><strong id='txt-verde'>We continue</strong> to achieve our aims of:</h1>
+      <h1><strong id='txt-verde'>{t("about.continue")}</strong> {t("about.goals")}</h1>
       <hr id='hr-green'></hr>
       <br></br>
       <ul>
-        ✅ Helping to make the world a healthier, cleaner and safer place.
+        ✅ {t("about.g1")}
 
       </ul>
       <ul>
-        ✅ Continuing to innovate new products to add to our existing range of hygiene solutions.
+        ✅ {t("about.g2")}
       </ul>
       <ul>
-        ✅  Supplying products and services that are unbeatable by all other manufacturers.           </ul>
+        ✅  {t("about.g3")}         </ul>
       <ul>
-        ✅  Making the industry’s best hygiene products available to those who need them through competitive pricing.           </ul>
+        ✅  {t("about.g4")}           </ul>
       <ul>
-        ✅  Actively listening to the needs and wants of our clients to help develop new products. </ul>
+        ✅  {t("about.g5")} </ul>
 
       <ul>
-        ✅  Being environmentally responsible through eco-friendly products and a strong policy.
+        ✅  {t("about.g6")}
       </ul>
       <ul>
-        ✅ Providing tailor-made experiences; we enjoy working with our clients, so, if there’s a project that you’d like us to address, feel free to discuss it with us!
+        ✅ {t("about.g7")}
       </ul>
     </div>
 

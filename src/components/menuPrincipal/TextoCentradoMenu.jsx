@@ -13,7 +13,7 @@ export const TextoCentradoMenu = () => {
 
     const [t, i18n] = useTranslation("global");
 
-
+ 
     return (
         <Carousel
             infiniteLoop={true}
@@ -27,10 +27,10 @@ export const TextoCentradoMenu = () => {
                 <div className="image-container">
                     <img src={wipes} className="img-fluid" alt="logo" />
                     <div className="text-overlay">
-                        <h1><strong id='text-gold'>¡Nuevo concepto</strong> para tu gimnasio!</h1>
-                        <h2>Infórmate y no te quedes atrás</h2>
+                        <h1><strong id='text-gold'>{t("main.title1A")}</strong> {t("main.title1A1")}</h1>
+                        <h2>{t("main.title1A2")}</h2>
                         
-                        <Link as={Link} to="/gym-zone"><button type="button" class="botoncito3" >Discover + <span></span><span></span><span></span><span></span></button></Link>
+                        <Link as={Link} to="/gym-zone"><button type="button" class="botoncito3" >{t("boton.boton")}<span></span><span></span><span></span><span></span></button></Link>
                     </div>
 
                 </div>
@@ -38,8 +38,8 @@ export const TextoCentradoMenu = () => {
             <div>
                 <div className="image-container">
                     <img src={widepod} className="img-fluid" alt="logo" />
-                    <div className="text-overlay2" > <h1 className='titulo' ><strong> Probablemente <br></br>la mejor "WiPE" del mercado</strong></h1>
-                        <Link as={Link} to="/wipes"><button type="button" class="botoncito" >Discover + <span></span><span></span><span></span><span></span></button></Link>
+                    <div className="text-overlay2" > <h1 className='titulo' ><strong> {t("main.title1B1")}<br></br>{t("main.title1B2")}</strong></h1>
+                        <Link as={Link} to="/wipes"><button type="button" class="botoncito" >{t("boton.boton")}<span></span><span></span><span></span><span></span></button></Link>
 
                     </div>
 

@@ -1,51 +1,55 @@
 import React from 'react'
+import { useTranslation } from 'react-i18next';
+
 
 export const TextTextWipes = () => {
+  const [t, i18n] = useTranslation("global");
+
     return (
         <div className="row" id='texto2columnas' >
 
             <div className="col-md-5" id='text-pls-4'>
                 <br></br>
-                <h3><strong id='txt-verde'>Key</strong> Features</h3>
+                <h3><strong id='txt-verde'>{t("wipes.key")}</strong> {t("wipes.features")}</h3>
                 <br></br>
                 <ul>
-                ✅ Kills 99.9% of germs and bacteria in 30 seconds, including Norovirus, flu virus, and MRSA.
+                ✅ {t("wipes.g1")}
                 </ul>
                 <ul>
-                ✅ Effective against fungi and viruses, including COVID-19.
+                ✅ {t("wipes.g2")}
                 </ul>
                 <ul>
-                ✅ Safe to use on all surfaces.
+                ✅ {t("wipes.g3")}
                 </ul>
                 <ul>
-                ✅ Alcohol and alcohol-free options.                </ul>
+                ✅ {t("wipes.g4")}               </ul>
                 <ul>
-                ✅ No scissors required: the robust and quality bag ensures ease of opening with the simple pull tag.
+                ✅ {t("wipes.g5")} 
                 </ul>
                 <ul>
-                ✅ Refill pouches are ideal for wet wipes dispensers while also reducing landfill waste.                </ul>
+                ✅ {t("wipes.g6")}               </ul>
                 <ul>
-                ✅ Wipes resist tears and hold their strength, even when wet.
+                ✅ {t("wipes.g7")}
                 </ul>
             </div>
             <div className="col-md-2"></div>
             <div className="col-md-5" id='text-pls-4'>
                 <br></br>
-                <h3><strong id='txt-verde'>Alcohol-Free</strong> Wipes Specifications:</h3>
+                <h3><strong id='txt-verde'>{t("wipes.alcohol")}</strong> {t("wipes.wipes")}</h3>
                 <br></br>
                 <ul>
-                ✅ Bucket capacity: 500-wipe or 1000-wipe buckets.
+                ✅ {t("wipes.g8")}
 
                 </ul>
                 <ul>
-                ✅ Lightly lemon scented to help create a fresh-smelling environment.
+                ✅ {t("wipes.g9")}
                 </ul>
                 <ul>
-                ✅ These wipes are guaranteed to remain wet from first to last wipe.            </ul>
+                ✅ {t("wipes.g10")}           </ul>
                 <ul>
-                ✅ 100% recyclable wipes            </ul>
+                ✅ {t("wipes.g11")}           </ul>
                 <ul>
-                ✅ Independently tested 100% non-hazardous and safe for landfill.            </ul>
+                ✅ {t("wipes.g12")}           </ul>
                 <br></br>
                 
 

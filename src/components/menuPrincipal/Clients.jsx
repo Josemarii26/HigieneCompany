@@ -2,12 +2,16 @@ import React from 'react'
 import marriot from './Marriot1.png';
 import anytime from './Anytime.png';
 import hilton from './Hilton.png';
+import { useTranslation } from 'react-i18next';
+
 
 
 export const Clients = () => {
+  const [t, i18n] = useTranslation("global");
+
   return (
     <>
-    <h1><strong id='txt-verde'>Clients</strong> we’ve helped</h1>
+    <h1><strong id='txt-verde'>{t("main.clients")}</strong> {t("main.help")}</h1>
     <hr id='hr-green'></hr>
     <div className="row" >
       <div className="col-md-4" >

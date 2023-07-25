@@ -3,10 +3,13 @@ import about1 from './About1.jpg';
 import about2 from './About2.jpg';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
+import { useTranslation } from 'react-i18next';
 
 
 
 export const CollageAbout = () => {
+
+    const [t, i18n] = useTranslation("global");
 
     useEffect(()=> {
         Aos.init();
@@ -20,11 +23,11 @@ export const CollageAbout = () => {
                     <br></br>
                     <br></br>
 
-                    <h1 data-aos="fade-left"><strong>ENSURING YOUR PROTECTION & WELLBEING</strong></h1>
+                    <h1 data-aos="fade-left"><strong>{t("about.t1")}</strong></h1>
                     <hr id='hr-green-s'></hr>
-                    <p >At The Hygiene Company, we are increasingly aware of current global issues and, therefore, are constantly striving to find new solutions for our ever-changing world. In light of the coronavirus, while many businesses have suffered shortages, we have ensured that our clients are never without sufficient hygiene supplies. Furthermore, we have developed new products that are effective against the new strain of COVID-19, such as our SS4/SS5 antiviral hand and surface wet wipe range.</p>
+                    <p >{t("about.t1p")}</p>
                     <br></br>
-                    <p>As well as ensuring the protection and wellbeing of people, we pride ourselves on simultaneously protecting the world around us through our range of environmentally friendly products, such as biodegradable wipes and recyclable wipes, and through the implementation of our Environmental Management Policy Statement.</p>
+                    <p>{t("about.t1p2")}</p>
 
 
                 </div>
@@ -46,11 +49,12 @@ export const CollageAbout = () => {
                     
                     
 
-                    <h1 data-aos="fade-right"><strong>A BUSINESS THAT THRIVES ON INNOVATION</strong></h1>
+                    <h1 data-aos="fade-right"><strong>{t("about.t2")}</strong></h1>
                     <hr id='hr-black'></hr>
-                    <p>As a business that thrives on innovation, we are excited for what the future holds for The Hygiene Company and our clients as we inevitably face new challenges.</p>
+                    <p>{t("about.t2p")}</p>
                     <br></br>
-                    <p>Constant research and laboratory testing, alongside the invaluable feedback from our clients, prepare us for present and forthcoming hygiene concerns by helping us to improve the effectivity of our current products and to invent new, original products.</p>
+                    <p>{t("about.t2p2")}</p>
+                    
 
 
                 </div>

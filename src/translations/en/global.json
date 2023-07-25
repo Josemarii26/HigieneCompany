@@ -21,15 +21,94 @@
     },
 
     "main":{
-        "title1A": "New concept for your gym!",
-        "title1B": "Find out more and don't get left behind!",
-        "title2A": "Find out more and don't get left behind!",
-        "title2": "Do you have any questions or concerns? Please do not hesitate to contact us. We will be happy to assist you and help you in any way we can.",
-        "p1": "The DRM WiPES team is a clear example of friendliness and professionalism, we will be happy to assist you 24/7. Focused on providing customers with the most suitable products that best suit their needs, you can contact us and ask us about what you think is best for you.",
-        "p2": "If you have a project in mind and you want us to tackle it, don't hesitate to tell us about it.",
-        "p3": "We like to work with our customers and form a big family, at DRM WiPES we are creating a new movement and we want you to be part of it, don't stay behind!"
+        "title1A": "New concept",
+        "title1A1": "for your gym!",
+        "title1A2": "Find out more and don't get left behind!",
+        "title1B1": "Probably",
+        "title1B2": "the best WiPe on the market",
+        "title2": "Innovation & Design",
+        "since": "Since",
+        "p1": "At DRM WiPES we help you make a hygienic leap in quality for your employees and customers.",
+        "p2": "Founded in 1992, The Hygiene Company has been creating original products at the forefront of hygiene solutions for almost 30 years.",
+        "p3": "A leading UK manufacturer and supplier of antibacterial WiPES, disinfectants and dispensers, the company ensures that its wide range of intelligent and effective products will improve cleaning procedures and inspire good hygiene practice in all environments.",
+        "p4": "DRM WiPES was founded three years ago to take over the distribution of this great company on a European level and with a clear mission: to make the best hygiene products in the industry available to those who need them. As an official supplier, we have the exclusive power to distribute all THE HYGIENE COMPANY brand products in all European countries.",
+        "p5": "To date, we have helped dozens of customers to maintain healthy environments for their staff and clientele with our top quality products at very competitive prices. Furthermore, we are committed to understanding the collective needs and desires of all our customers in order to continue to provide pioneering products tailored to their needs.",
+
+        "t1": "ANTIBACTERIAL HAND & SURFACE WET WIPES",
+        "t1p": "As an official supplier to The Hygiene Company, we guarantee to provide you with exceptional wet wipes to meet all your needs. Created with quality in mind, our wipes tend to last longer and work more effectively than competing brands. Plus, they're fully portable, which means you can maintain optimal hygiene at all times with a product you know you can trust. So whether you need wet wipes to clean gym equipment or to wipe down your office desk, The Hygiene Company's range of antibacterial wet wipes is the solution.",
+        "t2": "THE HOME OF THE AWARD-WINNING WIPEPOD",
+        "t2p" : "The Hygiene Company is the home of the Wipepod® - the award-winning, low-cost antibacterial wet wipe dispenser. Since its launch, the Wipepod® has become a widely recognised product and an essential item in many organisations including: HILTON HOTELS, MARRIOTT HOTELS as well as hundreds of gyms, health clubs, offices, kitchens, petrol stations, fast food outlets and supermarkets across Europe.",
+        "t3": "WET WIPE & SANITISER DISPENSERS",
+        "t3p" : "Our freestanding stainless steel wet wipe dispensers offer a high-end yet cost-effective hygiene solution. With a galvanised steel waste bin, this deluxe dispenser goes beyond its impressively large capacity for wet wipes; it allows for both hand and surface disinfection, as well as a means of disposing of used wipes, all in one place.",
+        "t4": "CUSTOMISATION FOR YOUR BRAND",
+        "t4p" : "With their elegant and professional design, our products will enhance the aesthetics of any environment. In addition, most of our products, such as dispensers and cleaning stations, can be fully customised. Depending on your wishes and needs, our products can carry your logo and your own personalised message, and are also available in a variety of colours to match your facility's palette or branding.",
+
+        "clients": "Clients",
+        "help": "we’ve helped"
+        
+    },
+    "about":{
+        "title1A": "ABOUT US",
+        "p1": "At DRM WiPES Company, we thrive on innovation. Generating new ideas and solutions for the industry, in the form of cutting-edge and cost-effective products, is the foundation upon which we continue to build our future.",
+        "p2": "At DRM WiPES Company, we thrive on innovation. Generating new ideas and solutions for the industry, in the form of cutting-edge and cost-effective products, is the foundation upon which we continue to build our future.",
+        "p3": "As well as ensuring the protection and well-being of people, we pride ourselves on simultaneously protecting the world around us through our range of environmentally friendly products, such as recyclable WiPES, and through the implementation of our Environmental Management Policy Statement.",
+       
+        "t1": "ENSURING YOUR PROTECTION & WELLBEING",
+        "t1p": "At DRM WiPES we are increasingly aware of today's global issues, which is why we are constantly striving to find new solutions for our ever-changing world. In light of the coronavirus, while many companies have suffered shortages, we have ensured that our customers never lack sufficient hygiene supplies. In addition, we have developed new products effective against the new strain of COVID-19, such as our SS4/SS5 range of antiviral hand and surface wipes.",
+        "t1p2": "As well as ensuring the protection and well-being of people, we pride ourselves on simultaneously protecting the world around us through our range of environmentally friendly products, such as recyclable WiPES, and through the implementation of our Environmental Management Policy Statement.",
+        "t2": "A BUSINESS THAT THRIVES ON INNOVATION",
+        "t2p" : "As a company that thrives on innovation, we are excited about what the future holds for DRM WiPES and our customers, as we inevitably face new challenges.",
+        "t2p2" : "Constant research and laboratory testing by our major manufacturer, THE HYGIENE COMPANY, along with valuable feedback from our customers, prepares us for current and future hygiene issues, helping us to improve the effectiveness of our current products and to invent new and original products.",
+        "continue": "We continue",
+        "goals": "and will continue to meet our goals of:",
+        "g1": "Contribute to making the world a healthier, cleaner and safer place.",
+        "g2": "Continue to innovate new products to add to our existing range of hygiene solutions.",
+        "g3": "To provide products and services that are unbeatable by other manufacturers.",
+        "g4": "Make the best hygiene products in the industry available to those who need them at competitive prices.",
+        "g5": "Actively listen to the needs and desires of our customers to help them develop new products.",
+        "g6": "To be environmentally responsible through environmentally friendly products and a strong green policy.",
+        "g7": "Providing tailor-made experiences; we like to work with our customers, so if there is a project you would like us to tackle, please do not hesitate to discuss it with us!"
+ 
 
 
+    },
+    "wipes":{
+        "title1A": "ANTIBACTERIAL WIPES",
+        "p1": "Dedicated to providing a solution for every need, our range of WiPES disinfectants, designed for both hands and surfaces, is fantastically varied; with alcohol-free wipes and recyclable wipes.",
+        "t": "THE UK'S LEADING SUPPLIER OF ANTI-BACTERIAL WiPES FOR HANDS AND SURFACES IS REACHING ALL OF EUROPE.",
+        "p2": "As an official supplier to the UK brand The Hygiene Company, we guarantee to provide you with exceptional wipes to meet all your needs. Created with quality in mind, our wipes tend to last longer and work more effectively than competing brands. Plus, they're fully portable, which means you can maintain optimal hygiene at all times with a product you know you can trust. So whether you need wet wipes to clean your gym equipment or wipe down your office desk, The Hygiene Company's range of antibacterial wet wipes is the solution.",
+        "p3": "As well as protecting people by eliminating and killing 99.99% of germs and bacteria in seconds, our range of wipes also protects the planet by being environmentally friendly. From 1 January 2020, all our wipes, including the packaging, are 100% recyclable. So with our environmentally friendly products, you, your staff and your customers can also take pride in the fact that you are helping to protect each other and the world around you.",
+        
+        "t1": "Liquidate SS4/SS5 Multipurpose Hand and Surface Wipes",
+        "t1p": "Our new range of SS4/SS5 antiviral hand and surface wipes contain Rewocid WK30, an active ingredient supplied by Evonik, which has demonstrated efficacy data verifying that, with an active concentration of 0.50% and a contact time of 5-15 minutes, the new strain of COVID-19 is inactivated.",
+        "t1p2": "Our SS4/SS5 antibacterial wipes are the perfect solution for exceptional hygiene on-the-go with our 100-wipe pack option and on-site with our large capacity bucket options. The bucket features a simple tab for easy access to wipes for quick and effective cleaning, making this option ideal for offices, schools, gyms, retail and food preparation areas. ",
+        "key": "Key",
+        "features": "Features",
+        "alcohol": "Alcohol-free",
+        "wipes": "Wipes Specifications",
+        "g1": "Kills 99.9% of germs and bacteria in 30 seconds, including Norovirus, flu virus, and MRSA.",
+        "g2": "Effective against fungi and viruses, including COVID-19.",
+        "g3": "Safe to use on all surfaces.",
+        "g4": "Alcohol and alcohol-free options.",
+        "g5": "No scissors required: the robust and quality bag ensures ease of opening with the simple pull tag.",
+        "g6": "Refill pouches are ideal for wet wipes dispensers while also reducing landfill waste.",
+        "g7": "Wipes resist tears and hold their strength, even when wet.",
+        "g8": "Bucket capacity: 500-wipe or 1000-wipe buckets.",
+        "g9": "Lightly lemon scented to help create a fresh-smelling environment.",
+        "g10": "These wipes are guaranteed to remain wet from first to last wipe.",
+        "g11": "100% recyclable wipes",
+        "g12": "Independently tested 100% non-hazardous and safe for landfill.",
+   
+        "t2": "Recyclable wipes",
+        "t2p" : "We have developed a range of 100% recyclable wipes; made from polypropylene, these recyclable alternatives retain all the strength of normal wipes.",
+        "t2p2" : "At DRM WiPES, offering our customers the choice of recyclable wipes is important to us as it means you and your company can make choices that help save our planet.",
+        "t2p3" : "In addition, all our antibacterial wipes come in 100% recyclable boxes and are made from a high percentage of recycled materials."
+        
+         },
+
+    "boton": {
+        "boton": "DISCOVER +"
     }
+
     
 }

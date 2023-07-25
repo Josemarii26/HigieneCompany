@@ -18,12 +18,9 @@ export const TextoCentradoWipes = () => {
     <div className="col-md-12">
       <div className="image-container" id='wapper2'>
         <img src={wipes5} className="img-fluid" alt="logo" />
-        <div className="text-overlay2" > <h4 className='titulo2' data-aos="fade-left"><strong> ANTIBACTERIAL<br></br> WIPES <hr id='hr-black'></hr></strong></h4>
-        <p id='menor'>Dedicated to providing a solution for every need, our array <br></br>
-        of disinfectant wipes, designed for both hands and surfaces,
-         is fantastically diverse; <br></br>with alcohol-free wipes, alcohol wipes, 
-         recyclable<br></br> wipes and biodegradable wipes all available.</p>
-          <a href='#widepod'><button type="button" class="botoncito" href="#widepod">Discover + <span></span><span></span><span></span><span></span></button></a>
+        <div className="text-overlay2" > <h4 className='titulo2' data-aos="fade-left"><strong> {t("wipes.title1A")} <hr id='hr-black'></hr></strong></h4>
+        <p id='menor'>{t("wipes.p1")}</p>
+          <a href='#widepod'><button type="button" class="botoncito" href="#widepod">{t("boton.boton")}<span></span><span></span><span></span><span></span></button></a>
 
         </div>
 
