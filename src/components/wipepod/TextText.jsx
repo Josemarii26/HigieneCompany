@@ -1,43 +1,44 @@
 import React from 'react'
+import { useTranslation } from 'react-i18next';
+
 
 export const TextText = () => {
+
+    const [t, i18n] = useTranslation("global");
     return (
         <div className="row" id='texto2columnas'>
             <br></br>
-                <h1><strong id='txt-verde'>Key</strong> Features</h1>
+                <h1><strong id='txt-verde'>{t("wipepod.key")}</strong> {t("wipepod.features")}</h1>
                 <br></br>
             <div className="col-md-5" id='text-pls-4'>
                 
                 <ul>
-                ✅Proven to increase good hand and surface hygiene practice.
+                ✅{t("wipepod.g1")}
                 </ul>
                 <ul>
-                ✅Improves both staff and customer perception of your organisation.
+                ✅{t("wipepod.g2")}
                 </ul>
                 <ul>
-                ✅Keyless locking system.
+                ✅{t("wipepod.g3")}
                 </ul>
                 <ul>
-                ✅Can be wall-mounted, surface-mounted or freestanding.
+                ✅{t("wipepod.g4")}
                 </ul>
                 <ul>
-                ✅Looks at home in all environments.
+                ✅{t("wipepod.g5")}
                 </ul>
             </div>
             <div className="col-md-2"></div>
             <div className="col-md-5" id='text-pls-4'>
                 <ul>
-                ✅Can be used in conjunction with any of our antibacterial wet wipes.
+                ✅{t("wipepod.g6")}
                 </ul>
                 <ul>
-                ✅Guarantees that every wipe remains moist, from the very first to the
-                    very last wipe.            </ul>
+                ✅{t("wipepod.g7")}        </ul>
                 <ul>
-                ✅Can be customised to be consistent with company colours and to
-                    feature logos.            </ul>
+                ✅{t("wipepod.g8")}         </ul>
                 <ul>
-                ✅Comes with a 60-day satisfaction guarantee and a lifetime warranty
-                    against manufacturing defects, vandalism and theft.            </ul>
+                ✅{t("wipepod.g9")}            </ul>
 
             </div>
         </div>

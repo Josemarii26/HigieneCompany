@@ -1,24 +1,22 @@
 import React from 'react'
 import img1 from './wipepodF.png';
+import { useTranslation } from 'react-i18next';
+
 
 
 export const TextoFoto = () => {
+  const [t, i18n] = useTranslation("global");
+
   return (
     <div className="row" id='widepod'>
       <div className="col-md-1">
 
       </div>
       <div className="col-md-4" id='text-pls-3'>
-        <h1>THE HOME OF AWARD WINNING WIDEPOD</h1>
+        <h1>{t("wipepod.t")}</h1>
         <hr id='hr-green-s'></hr>
-        <p>The Hygiene Company is the home of the Wipepod®:
-          the award-winning, low-cost antibacterial wet wipes dispenser.</p>
-        <p>Since its launch, the Wipepod® has become a widely recognised
-          product and an essential feature of many organisations, including:
-          the NHS, Aviva, British Gas, National Grid, the deVere Group and
-          Nuffield Health, as well as hundreds of gyms, healthcare centres,
-          offices, kitchens, petrol stations, fast food outlets, and
-          supermarkets across the UK.</p>
+        <p>{t("wipepod.p2")}</p>
+        <p>{t("wipepod.p3")}</p>
       </div>
       <div className="col-md-2">
 

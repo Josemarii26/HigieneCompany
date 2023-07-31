@@ -11,8 +11,8 @@ export const TextoCentradoStation = () => {
     <div className="col-md-12">
       <div className="image-container" id='wapper2'>
         <img src={station} className="img-fluid" alt="logo" />
-        <div className="text-overlay2" > <h4 className='titulo2' ><strong> STAINLESS STEEL WET WIPES DISPENSERS <hr id='hr-black'></hr></strong></h4>
-        <h4 id='menor'>The Hygiene Company’s Stainless Steel Dispensers offer a sleek and effective<br></br> hygiene solution that will enhance your facilities and corporate image.</h4>
+        <div className="text-overlay2" > <h4 className='titulo2' ><strong> {t("stainless.title1A")} <hr id='hr-black'></hr></strong></h4>
+        <h4 id='menor'>{t("stainless.p1")}</h4>
           <a href='#widepod'><button type="button" class="botoncito" href="#widepod">Discover + <span></span><span></span><span></span><span></span></button></a>
 
         </div>

@@ -1,20 +1,23 @@
 import React from 'react'
+import { useTranslation } from 'react-i18next';
 
 export const TextTextStainless2 = () => {
+    const [t, i18n] = useTranslation("global");
     return (
         <div className="row" id='texto2columnas' >
             <br></br>
-            <h1><strong>Key Features </strong> </h1>
+            <h1><strong id='txt-verde'>{t("stainless.key")}</strong> {t("stainless.features")}</h1>
+
             <br></br>
             <hr id='hr-green'></hr>
 
             <div className="col-md-5" id='text-pls-4'>
                 
                 <ul>
-                ✅ Large or medium antibacterial wipes capacity.
+                ✅ {t("stainless.h1")}
                 </ul>
                 <ul>
-                ✅ Secure locking system.
+                ✅ {t("stainless.h2")}
                 </ul>
                 
                 
@@ -23,11 +26,11 @@ export const TextTextStainless2 = () => {
             <div className="col-md-5" id='text-pls-4'>
                 
                 <ul>
-                ✅ Customised branding available.
+                ✅ {t("stainless.h3")}
 
                 </ul>
                 <ul>
-                ✅ Available in: brushed top-grade 304 stainless steel OR matt black mild steel powder paint finishes.
+                ✅ {t("stainless.h4")}
                 </ul>
                 
                 

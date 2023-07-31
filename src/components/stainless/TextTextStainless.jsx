@@ -1,10 +1,12 @@
 import React from 'react'
+import { useTranslation } from 'react-i18next';
 
 export const TextTextStainless = () => {
+    const [t, i18n] = useTranslation("global");
     return (
         <div className="row" id='texto2columnas' >
             <br></br>
-            <h1><strong>Key Features </strong> </h1>
+            <h1><strong id='txt-verde'>{t("stainless.key")}</strong> {t("stainless.features")}</h1>
             <br></br>
             <hr id='hr-green'></hr>
             
@@ -14,19 +16,19 @@ export const TextTextStainless = () => {
                 
                 
                 <ul>
-                ✅ Large antibacterial wipes capacity (500+ wipes).
+                ✅ {t("stainless.g1")}
                 </ul>
                 <ul>
-                ✅ Built-in galvanised waste bin with a large capacity. May be used with or without a liner.
+                ✅ {t("stainless.g2")}
                 </ul>
                 <ul>
-                ✅ Built-in antibacterial hand foam sanitiser dispenser (this feature is optional: if not required, dispenser is offered with a blanking plate instead).
+                ✅ {t("stainless.g3")}
                 </ul>
                 <ul>
-                ✅ Lockable door.
+                ✅ {t("stainless.g4")}
                 </ul>
                 <ul>
-                ✅ Customised branding available.
+                ✅ {t("stainless.g5")}
                 </ul>
                 
                 
@@ -36,17 +38,17 @@ export const TextTextStainless = () => {
             <div className="col-md-5" id='text-pls-4'>
                 
                 <ul>
-                ✅ Angled top or flat top options.
+                ✅ {t("stainless.g6")}
 
                 </ul>
                 
                 <ul>
-                ✅ Available in: brushed top-grade 304 stainless steel OR matt black mild steel powder paint finishes.         </ul>
+                ✅ {t("stainless.g7")}</ul>
                 <ul>
-                ✅ Unit size (mm): 324mm x 1092mm
-                </ul>
+                ✅ {t("stainless.g8")}</ul>
+                
                 <ul>
-                ✅ Weight: 16KG
+                ✅ {t("stainless.g9")}
                 </ul>
                 
 

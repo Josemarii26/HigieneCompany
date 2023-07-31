@@ -2,8 +2,10 @@ import React, { useEffect } from 'react'
 import stainless3 from './Stainless3.jpg';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
+import { useTranslation } from 'react-i18next';
 
 export const Collagex1Stainless2 = () => {
+    const [t, i18n] = useTranslation("global");
 
     useEffect(()=> {
         Aos.init();
@@ -18,12 +20,12 @@ export const Collagex1Stainless2 = () => {
                 <div className="col-md-1"></div>
                 <div className="col-md-4" id="text-pls-3">
                     <br></br>
-                    <h1 data-aos="fade-left"><strong>WET/DRY WALL-MOUNTED STAINLESS STEEL DISPENSERS</strong></h1>
+                    <h1 data-aos="fade-left"><strong>{t("stainless.t2")}</strong></h1>
                     <hr id='hr-black'></hr>
                     <br></br>
-                    <p>Offering both wet wipes and dry wipe paper towels, the Wet/Dry Wall-Mounted Stainless Steel Dispenser is the perfect hygiene solution for every situation.</p>
-                    <p>Whether in a commercial kitchen, at-home nursery or leisure centre, there is a need in all environments to clean, disinfect and dry surfaces, in order to maintain the health and safety of everyone who enters the facilities.</p>
-                    <p>With its dual system, the Wet/Dry Wall-Mounted Stainless Steel Dispenser is both time- and cost- effective, for it provides staff and customers with the means to clean and dry surfaces and equipment in one location.</p>                
+                    <p>{t("stainless.p21")}</p>
+                    <p>{t("stainless.p31")}</p>
+                                  
                 </div>
                 <div className="col-md-1"></div>
 

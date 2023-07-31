@@ -1,10 +1,12 @@
 import React from 'react'
 import check from './check.png';
+import { useTranslation } from 'react-i18next';
 
 
 
 
 export const ClientsStainless = () => {
+  const [t, i18n] = useTranslation("global");
   return (
 
     
@@ -16,7 +18,7 @@ export const ClientsStainless = () => {
         <div className="col-md-4" id='text-pls-6'>
         <p><br></br>
       
-      <br></br>At The Hygiene Company, we understand the value of aesthetics and, therefore, we offer several customisation options for our Freestanding Stainless Steel Wet Wipes Dispensers:</p>
+      <br></br>{t("stainless.t1p3")}</p>
         </div>
         <div className="col-md-4"></div>
       </div>
@@ -33,7 +35,7 @@ export const ClientsStainless = () => {
       
       
 
-      <p id='text-pls-5'>The opportunity to feature branding so as to promote your logos and deliver your bespoke message.</p>
+      <p id='text-pls-5'>{t("stainless.b1")}</p>
       
       </div>
       <div className="col-md-1"></div>
@@ -44,7 +46,7 @@ export const ClientsStainless = () => {
       <br></br>
       
 
-      <p id='text-pls-5'>Dispensers may feature a slanted top, which enables greater visibility of customised branding on this surface, or a flat top.</p>
+      <p id='text-pls-5'>{t("stainless.b2")}</p>
       
       </div>
       <div className="col-md-1"></div>
@@ -54,7 +56,7 @@ export const ClientsStainless = () => {
       <br></br>
       <br></br>
       
-      <p id='text-pls-5'>Finish options of either brushed top-grade 304 stainless steel or matt black mild steel powder paint finishes.</p>
+      <p id='text-pls-5'>{t("stainless.b3")}</p>
       
       </div>
       <div className="col-md-2"></div>

@@ -14,7 +14,7 @@ export const TextoCentradoContact = () => {
         <img src={contact} className="img-fluid" alt="logo" />
         <div className="text-overlay2" > <h4 className='titulo2' data-aos="fade-left"><strong> {t("contact-us.title1")} <hr id='hr-black'></hr></strong></h4>
         <p id='menor'>{t("contact-us.title2")}</p>
-          <a href='#widepod'><button type="button" class="botoncito" href="#widepod">Discover + <span></span><span></span><span></span><span></span></button></a>
+          <a href='#widepod'><button type="button" class="botoncito" href="#widepod">{t("boton.boton")}<span></span><span></span><span></span><span></span></button></a>
 
         </div>
 

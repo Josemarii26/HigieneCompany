@@ -2,8 +2,12 @@ import React, { useEffect } from 'react'
 import station from './Station3.jpg';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
+import { useTranslation } from 'react-i18next';
+
 
 export const Collagex1Station = () => {
+  const [t, i18n] = useTranslation("global");
+
 
     useEffect(()=> {
         Aos.init();
@@ -18,32 +22,32 @@ export const Collagex1Station = () => {
                 <div className="col-md-1"></div>
                 <div className="col-md-4" id="text-pls-3">
                     <br></br>
-                    <h1 data-aos="fade-left"><strong>KEY FEATURES</strong></h1>
+                    <h1 data-aos="fade-left"><strong>{t("station.t1")}</strong></h1>
                     <hr id='hr-black'></hr>
                     <br></br>
                     <ul>
-                ✅ Unique patented design.
+                ✅ {t("station.g1")}
                 </ul>
                 <ul>
-                ✅ Custom branding and colours available.
+                ✅ {t("station.g2")}
                 </ul>
                 <ul>
-                ✅ Capacity of up to 1000 antibacterial wipes.
+                ✅ {t("station.g3")}
                 </ul>
                 <ul>
-                ✅ Built-in waste receptacle.               </ul>
+                ✅ {t("station.g4")}           </ul>
                 <ul>
-                ✅ Inner Bin Capacity: 25 litres.
+                ✅ {t("station.g5")}
                 </ul>
                 <ul>
-                ✅ Dispenser size: 32cm (diameter) x 122cm.               </ul>
+                ✅ {t("station.g6")}              </ul>
                 <ul>
-                ✅ Dispenser weight unpackaged: 11.75kg.
+                ✅ {t("station.g7")}
                 </ul>
                 <ul>
-                ✅ Concrete base weight: 7.5kg.               </ul>
+                ✅ {t("station.g8")}            </ul>
                 <ul>
-                ✅ Material: Polyethylene.
+                ✅ {t("station.g9")}
                 </ul>
                 </div>
                 <div className="col-md-1"></div>
