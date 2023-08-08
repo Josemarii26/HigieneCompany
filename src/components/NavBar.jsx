@@ -21,7 +21,7 @@ export const NavBar = () => {
   return (
     
     <div className="col-lg-12" >
-      {['lg'].map((expand) => (
+      {['xl'].map((expand) => (
         <Navbar key={expand} bg="light" expand={expand} className="mb-3" >
           <Container>
             <Navbar.Brand as={Link} to="/"><img src={logo} alt='logo' id='logo' width='240px'></img></Navbar.Brand>
@@ -47,10 +47,10 @@ export const NavBar = () => {
                     title={t("header.discover")}
                     id={`offcanvasNavbarDropdown-expand-${expand}`}
                   >
-                    <NavDropdown.Item as={Link} to="/stainless">STAINLESS STEEL WET <br></br>WIPES DISPENSER</NavDropdown.Item>
+                    <NavDropdown.Item as={Link} to="/stainless">{t("header.inox")}<br></br>{t("header.inox2")}<br></br>{t("header.inox3")}</NavDropdown.Item>
                     <NavDropdown.Divider />
                     <NavDropdown.Item as={Link} to="/wet-wipes-station">
-                      WET WIPES STATION
+                    {t("header.station")}<br></br>{t("header.station2")}
                     </NavDropdown.Item>
                     
                     

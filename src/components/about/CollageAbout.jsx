@@ -20,14 +20,15 @@ export const CollageAbout = () => {
             <div className="row" id='negro'>
                 <div className="col-md-1"></div>
                 <div className="col-md-4 order-1 order-md-0" id='text-pls-3' >
-                    <br></br>
-                    <br></br>
+                    
 
                     <h1 data-aos="fade-left"><strong>{t("about.t1")}</strong></h1>
                     <hr id='hr-green-s'></hr>
                     <p >{t("about.t1p")}</p>
                     <br></br>
                     <p>{t("about.t1p2")}</p>
+                    <br></br>
+                    
 
 
                 </div>
@@ -44,8 +45,8 @@ export const CollageAbout = () => {
                 </div>
                 <div className="col-md-1 order-2 oirder-md-2"></div>
                 <div className="col-md-4 order-3 order-md-2" id='text-pls-3' >
-                    <br></br>
-                    <br></br>
+                    
+                    
                     
                     
 

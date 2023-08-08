@@ -14,8 +14,8 @@ export const TextoFotoStation = () => {
       <div className="col-md-4" id='text-pls-3'>
         <h1>{t("station.t")}</h1>
         <hr id='hr-green-s'></hr>
-        <p>{t("station.p1")}</p>
         <p>{t("station.p2")}</p>
+        <p>{t("station.p3")}</p>
       </div>
       <div className="col-md-1">
 

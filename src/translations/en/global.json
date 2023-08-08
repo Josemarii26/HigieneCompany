@@ -7,7 +7,12 @@
         "wipepod": "Wipepod",
         "gym-zone": "Gym Zone",
         "discover": "Discover more products",
-        "contact": "Contact us"
+        "contact": "Contact us",
+        "inox": "Stainless steel",
+        "inox2": "wet wipes ",
+        "inox3": "dispensers",
+        "station": "Wet wipes",
+        "station2": "station"
     },
     "contact-us": {
         "title1": "CONTACT US",
@@ -18,10 +23,10 @@
     },
     "main": {
         "title1A": "New concept",
-        "title1A1": "for your gym!",
+        "title1A1": "for your fitness centre!",
         "title1A2": "Find out more and don't get left behind!",
         "title1B1": "Probably",
-        "title1B2": "the best WiPe on the market",
+        "title1B2": "the best WiPE on the market",
         "title2": "Innovation & Design",
         "since": "Since",
         "p1": "At DRM WiPES we help you make a hygienic leap in quality for your employees and customers.",

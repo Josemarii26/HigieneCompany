@@ -1,6 +1,6 @@
 import React from 'react'
 
-import wipes from './widepod0Mejor2.jpg';
+import wipes from './gym2.png';
 
 import { useTranslation } from 'react-i18next';
 

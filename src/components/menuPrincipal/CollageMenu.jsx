@@ -15,6 +15,11 @@ import { useTranslation } from 'react-i18next';
 
 export const CollageMenu = () => {
 
+    const handleButtonClick = () => {
+      
+        window.scrollTo(0, 0);
+      };
+
     const [t, i18n] = useTranslation("global");
 
     useEffect(() => {
@@ -34,7 +39,7 @@ export const CollageMenu = () => {
                     <p >{t("main.t1p")}
                     </p>
 
-                    <Link as={Link} to="/wipes"><button type="button" class="botoncito2" >{t("boton.boton")}<span></span><span></span><span></span><span></span></button></Link>
+                    <Link as={Link} to="/wipes" onClick={handleButtonClick}><button type="button" class="botoncito2" >{t("boton.boton")}<span></span><span></span><span></span><span></span></button></Link>
 
                 </div>
                 <div className="col-md-1"></div>
@@ -55,7 +60,7 @@ export const CollageMenu = () => {
                     <p>{t("main.t2p")}</p>
               
                     
-                    <Link as={Link} to="/wipepod"><button type="button" class="botoncito" >{t("boton.boton")}<span></span><span></span><span></span><span></span></button></Link>
+                    <Link as={Link} to="/wipepod" onClick={handleButtonClick}><button type="button" class="botoncito" >{t("boton.boton")}<span></span><span></span><span></span><span></span></button></Link>
 
                 </div>
                 <div className="col-md-1 order-3 oirder-md-2"></div>
@@ -76,7 +81,7 @@ export const CollageMenu = () => {
                     </p>
                     
                     
-                    <Link as={Link} to="/dispenser"><button type="button" class="botoncito2" >{t("boton.boton")}<span></span><span></span><span></span><span></span></button></Link>
+                    <Link as={Link} to="/dispenser" onClick={handleButtonClick}><button type="button" class="botoncito2" >{t("boton.boton")}<span></span><span></span><span></span><span></span></button></Link>
 
 
                 </div>
@@ -98,7 +103,7 @@ export const CollageMenu = () => {
                     <p>{t("main.t4p")}</p>
 
 
-                    <Link as={Link} to="/about-us"><button type="button" class="botoncito" >{t("boton.boton")}<span></span><span></span><span></span><span></span></button></Link>
+                    <Link as={Link} to="/about-us" onClick={handleButtonClick}><button type="button" class="botoncito" >{t("boton.boton")}<span></span><span></span><span></span><span></span></button></Link>
 
 
                 </div>

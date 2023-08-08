@@ -101,6 +101,11 @@ h1 {
   
 }
 
+.dropdown-item{
+  z-index: 999999;
+  position: relative!important;
+}
+
 /*************GYM-MODE**************/
 
 #uno{
@@ -335,7 +340,7 @@ h1 {
 
 #text-pls-7 {
   font-size: 16px;
-  padding: 1%;
+  
   text-align: left;
 
 
@@ -785,7 +790,7 @@ h1 {
   transform: translate(-50%, -50%);
   color: white;
   padding: 10px;
-  z-index: 999999999999;
+  z-index: 99999;
 
 }
 
@@ -798,6 +803,13 @@ h1 {
 .titulo2 {
 
   font-size: 80px;
+  text-align: center;
+
+}
+
+.titulo21 {
+
+  font-size: 50px;
   text-align: center;
 
 }
@@ -901,8 +913,21 @@ h1 {
 
 
 /***********************MEDIA QUERYS*******************************/
+@media (max-width: 1375px) {
 
+  
 
+  #menor {
+    display: none;
+  }
+
+  #text-pls-3 p {
+    font-size: 14px;
+    text-align: left;
+    margin-left: 6% !important;
+    padding-right: 6% !important;
+}
+}
 @media (max-width: 1075px) {
 
 
@@ -917,6 +942,9 @@ h1 {
 
   .titulo2 {
     font-size: 55px;
+  }
+  .titulo21 {
+    font-size: 25px;
   }
   .titulo3 {
     font-size: 55px;
@@ -984,6 +1012,22 @@ h1 {
     padding: 1%;
     text-align: left;
   
+  
+  }
+  #marriot {
+
+    transform: scale(0.6);
+  
+  }
+  
+  #anytime {
+  
+    transform: scale(0.6);
+  }
+  
+  #hilton {
+  
+    transform: scale(0.7);
   
   }
 
@@ -1083,8 +1127,6 @@ h1 {
 
   }
 
-
-
-
-
 }
+
+
