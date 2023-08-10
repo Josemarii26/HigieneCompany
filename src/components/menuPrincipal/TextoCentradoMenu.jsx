@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import ReactDOM from 'react-dom';
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
-import gym2 from './gym2.png';
+import gym2 from './Gym22.png';
 import widepod2 from './widepod0.jpg';
 
 import wipes from './widepod0Mejor2.jpg';

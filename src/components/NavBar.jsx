@@ -42,7 +42,7 @@ export const NavBar = () => {
                   <Nav.Link as={Link} to="/about-us">{t("header.about-us")}</Nav.Link>
                   <Nav.Link as={Link} to="/wipes">{t("header.wipes")}</Nav.Link>
                   <Nav.Link as={Link} to="/wipepod">{t("header.wipepod")}</Nav.Link>
-                  <Nav.Link as={Link} to="/gym-zone" id="to-gym">{t("header.gym-zone")}</Nav.Link>
+                  
                   <NavDropdown
                     title={t("header.discover")}
                     id={`offcanvasNavbarDropdown-expand-${expand}`}
@@ -55,6 +55,7 @@ export const NavBar = () => {
                     
                     
                   </NavDropdown>
+                  <Nav.Link as={Link} to="/gym-zone" id="to-gym">{t("header.gym-zone")}</Nav.Link>
                   <Nav.Link as={Link} to="/contact-us">{t("header.contact")}</Nav.Link>
                   <button id="languaje-b" onClick={() => changeLanguage("es")}><img src={esp} alt='spain' width='35px'></img></button>
                   <button id="languaje-b" onClick={() => changeLanguage("en")}><img src={uk} alt='uk' width='35px'></img></button>
