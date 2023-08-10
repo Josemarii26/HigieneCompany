@@ -5,6 +5,7 @@ import { TextoBlancoContact } from '../contactUs/TextoBlancoContact'
 import { TextoCentradoContact } from '../contactUs/TextoCentradoContact'
 import { Where } from '../wipes/Where'
 import { Footer } from '../Footer'
+import { WhatsApp } from '../WhatsApp'
 
 export const ContactUs = () => {
   return (
@@ -15,6 +16,8 @@ export const ContactUs = () => {
         <TextoBlancoContact />
         <Where />
         <ScrollToTopButton />
+        <WhatsApp/>
+
         <Footer/>
 
       </header>

@@ -6,6 +6,7 @@ import { Where } from '../wipes/Where'
 import { ScrollToTopButton } from '../ScrollToTopButton'
 import { Footer } from '../Footer'
 import { NavBar } from '../NavBar'
+import { WhatsApp } from '../WhatsApp'
 
 
 export const WetWipesStation = () => {
@@ -18,6 +19,8 @@ export const WetWipesStation = () => {
     <Collagex1Station/>
     <Where/>
     <Footer/>
+    <WhatsApp/>
+
     <ScrollToTopButton/>
     </header>
   </div>

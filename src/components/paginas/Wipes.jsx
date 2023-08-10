@@ -8,6 +8,7 @@ import { TextTextWipes } from '../wipes/TextTextWipes'
 import { Collage } from '../wipes/Collage'
 import { Where } from '../wipes/Where'
 import { NavBar } from '../NavBar'
+import { WhatsApp } from '../WhatsApp'
 
 
 export const Wipes = () => {
@@ -23,6 +24,8 @@ export const Wipes = () => {
       <Collage/>
       <Where/>
       <ScrollToTopButton/>
+      <WhatsApp/>
+
       
       
       <Footer/>

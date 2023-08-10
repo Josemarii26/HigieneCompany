@@ -11,6 +11,7 @@ import { Footer } from '../Footer'
 import { ClientsStainless } from '../stainless/Clients'
 import { FourColumnsStainless } from '../stainless/FourColumns'
 import { NavBar } from '../NavBar'
+import { WhatsApp } from '../WhatsApp'
 
 export const Stainless = () => {
   return (
@@ -27,6 +28,8 @@ export const Stainless = () => {
         <TextTextStainless2/>
         
         <Where/>
+        <WhatsApp/>
+
         <Footer/>
         <ScrollToTopButton/>
 

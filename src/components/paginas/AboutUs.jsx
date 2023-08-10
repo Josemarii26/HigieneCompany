@@ -6,6 +6,7 @@ import { InicioAbout } from '../about/InicioAbout'
 import { ScrollToTopButton } from '../ScrollToTopButton'
 import { NavBar } from '../NavBar'
 import { Footer } from '../Footer'
+import { WhatsApp } from '../WhatsApp'
 
 
 
@@ -20,6 +21,8 @@ export const AboutUs = () => {
     <CollageAbout/>
     <ColumnaAbout/>
     <ScrollToTopButton/>
+    <WhatsApp/>
+
     <Footer/>
  
     </header>
