@@ -13,6 +13,12 @@ export const TextoBlancoGym = () => {
         </p>
 
         <p id='text-white'> {t("gym.p3")}</p>
+
+        <p id='text-white'>{t("gym.t1p3")}
+        </p>
+
+        <p id='text-gold'> {t("gym.t1p4")}</p>
+
       </div>
 
     </div>

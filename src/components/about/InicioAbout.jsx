@@ -11,8 +11,14 @@ export const InicioAbout = () => {
                 <p>{t("about.p2")}
                 </p>
                 <p id='txt-verde'> {t("about.p3")}</p>
+                <h1><strong>{t("about.p4")}</strong></h1>
+                <hr id='hr-green'></hr>
+                <p>{t("about.p5")}</p>
             </div>
 
+
+
         </div>
+
     )
 }

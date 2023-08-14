@@ -97,7 +97,7 @@ export const CollageMenu = () => {
                 <div className="col-md-1 order-2 oirder-md-2"></div>
                 <div className="col-md-4 order-3 order-md-2" id='text-pls-3' >
                     <br></br>
-
+                    <br></br>
                     <h1 data-aos="fade-right"><strong>{t("main.t4")}</strong></h1>
                     <hr id='hr-black'></hr>
                     <p>{t("main.t4p")}</p>

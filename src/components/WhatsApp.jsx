@@ -22,7 +22,7 @@ export const WhatsApp = () => {
   }, []);
 
   const openWhatsApp = () => {
-    const phoneNumber = '634672598'; // Reemplaza con el número de teléfono de WhatsApp
+    const phoneNumber = '685091830'; // Reemplaza con el número de teléfono de WhatsApp
     const message = encodeURIComponent('¡Hola! Estoy contactándote desde el sitio web.'); // Mensaje predefinido
     window.open(`https://wa.me/${phoneNumber}?text=${message}`, '_blank');
   };
@@ -34,7 +34,7 @@ export const WhatsApp = () => {
       className={`scroll-to-top2 ${isVisible ? 'show' : ''}`}
       onClick={openWhatsApp}
     >
-      <img src={whats} className="img-fluid" alt="logo" id='image33' />
+      <img src={whats} className="img-fluid33" alt="logo" id='image33' />
     </div>
   );
 };

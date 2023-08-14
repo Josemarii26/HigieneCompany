@@ -82,7 +82,7 @@ h1 {
 
 .navbar-nav {
   --bs-nav-link-color: #90c257 !important;
-  text-transform: uppercase;
+  
   font-size: smaller;
   transition: 400ms;
   z-index: 999999999999999999;
@@ -583,6 +583,11 @@ h1 {
   visibility: hidden;
   transition: opacity 0.3s ease, visibility 0.3s ease;
   
+}
+
+.img-fluid33 {
+  max-width: 100%;
+  height: auto;
 }
 
 #image33{

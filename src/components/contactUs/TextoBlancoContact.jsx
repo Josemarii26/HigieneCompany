@@ -8,9 +8,9 @@ export const TextoBlancoContact = () => {
     <div className="row" id='widepod'>
       <div className="col-md-3"></div>
       <div className="col-md-6" id='text-pls-5'>
-        <p>{t("contact-us.p1")}
+        <p id='txt-verde'>{t("contact-us.p1")}
         </p>
-        <p></p>
+        <p>{t("contact-us.p15")} </p>
         <p>{t("contact-us.p2")}
 
         </p>
